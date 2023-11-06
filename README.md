@@ -15,3 +15,4 @@ frontend
 -  npm install @mui/icons-material
 -  npm add react-circular-progressbar
 -  npm install recharts
+-  npm add @mui/x-data-grid
