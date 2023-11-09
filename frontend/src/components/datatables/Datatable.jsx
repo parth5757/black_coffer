@@ -6,8 +6,8 @@ const Datatable = () => {
   const actionColumn = [{ field: "action", headerName: "Action", width: 200, renderCell:()=>{
     return(
       <div className="cellAction">
-        <div className="viewButton"></div>
-        <div className="deleteButton"></div>
+        <div className="viewButton">View</div>
+        <div className="deleteButton">Delete</div>
       </div>
     )
   }}];
@@ -22,7 +22,7 @@ const Datatable = () => {
           },
         }}
         pageSize={5}
-        pageSizeOptions={[5,50]}
+        pageSizeOptions={[5, 10, 20, 50]}
         checkboxSelection
       />
 

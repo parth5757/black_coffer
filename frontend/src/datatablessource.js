@@ -3,29 +3,28 @@ export const userColumns = [
     {
         field: "user", 
         headerName:"User", 
-        width: 230, 
+        width: 130, 
         renderCell: (params) => {
             return(
                 <div className="cellWithImg">
-                    <img className="cellImg" src={params.row.Img} alt="avatar" />
-                    {params.row.Username}
+                    <img className="cellImg" src={params.row.Img} alt="avatar" />                
                 </div>
             );
         },
     },
     {
-        field:"Username", headerName:"User Name", width: 230,
+        field:"Username", headerName:"User Name", width: 130,
     },
     
     {
         field:"email", 
         headerName:"Email", 
-        width: 230,
+        width: 200,
     },
     {
         field:"age", 
         headerName:"Age", 
-        width: 230,
+        width: 50,
     }, 
     {
         field: "status",
