@@ -1,0 +1,31 @@
+formSource.js
+
+// Line 27-54
+<div className="formInput">
+    <label>Username</label>
+    <input type="text" placeholder="Bhupendr" />
+</div>
+{/* <div className="formInput">
+<label>Name and Surname</label>
+<input type="text" placeholder="Bhupendr Jogi" />
+</div>
+<div className="formInput">
+<label>Email</label>
+<input type="email" placeholder="Bhupendr@blackcoffer.com" />
+</div>
+<div className="formInput">
+<label>Phone</label>
+<input type="text" placeholder="+91 8888888888" />
+</div>
+<div className="formInput">
+<label>Password</label>
+<input type="password"/>
+</div>
+<div className="formInput">
+<label>Address</label>
+<input type="text" placeholder="BlackCoffer, chandani chock"/>
+</div>
+<div className="formInput">
+<label>Country</label>
+<input type="text" placeholder="Bharat"/>
+</div> */}
