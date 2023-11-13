@@ -2,7 +2,11 @@ import React from "react"
 import "./login.scss"
 const Login = () => {
     return (
-        <div className="login">This is login</div>
+        <div className="login">
+            <form className="form">
+                <label>Email</label>
+            </form>
+        </div>
     )
 }
 export default Login

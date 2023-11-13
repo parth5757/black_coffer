@@ -11,7 +11,7 @@ import VpnKeyIcon from '@mui/icons-material/VpnKey';
 import SettingsIcon from '@mui/icons-material/Settings';
 import AssignmentIndIcon from '@mui/icons-material/AssignmentInd';
 import LogoutIcon from '@mui/icons-material/Logout';
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
 
 const Sidebar = () => {
     return (
