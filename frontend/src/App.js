@@ -1,5 +1,6 @@
 import Home from "./pages/home/home";
 import Login from "./pages/login/login";
+import Register from "./pages/register/register";
 import List from "./pages/list/list";
 import New from "./pages/New/New";
 import Single from "./pages/single/single";
@@ -16,6 +17,7 @@ function App() {
           <Route path="/">
             <Route index element={<Home />}/>
             <Route path="login" element={<Login />}/>
+            <Route path="register" element={<Register />}/>
             <Route path="users">
               <Route index element={< List />} />
               <Route path=":userId" element={<Single/>}/>
