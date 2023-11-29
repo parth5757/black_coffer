@@ -5,6 +5,8 @@ backend
 -  python manage.py makemigrations
 -  python manage.py migrate
 -  python manage.py runsever
+-  pip install djangorestframework
+-  pip install djangorestframework-simplejwt
 
 
 frontend
