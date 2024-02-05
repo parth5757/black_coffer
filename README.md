@@ -1,7 +1,7 @@
 # black_coffer
 
-backend
--  venv/scripts/acticate
+** backend **
+-  `venv/scripts/acticate`
 -  `python manage.py makemigrations`
 -  `python manage.py migrate`
 -  `python manage.py runsever`
@@ -9,7 +9,7 @@ backend
 -  `pip install djangorestframework-simplejwt`
 
 
-frontend
+** frontend **
 -  `npx create-react-app .`
 -  `npm add sass`
 -  `npm add react-router-dom`
